@@ -1,0 +1,26 @@
+{
+  "name": "battle",
+  "version": "1.0.0",
+  "description": "As two Players,\r So we can play a personalised game of Battle,\r We want to start a fight by entering our Names and seeing them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AamirahV/Battle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AamirahV/Battle/issues"
+  },
+  "homepage": "https://github.com/AamirahV/Battle#readme",
+  "devDependencies": {
+    "cypress": "^8.0.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
