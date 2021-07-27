@@ -9,15 +9,8 @@ app.get('/', (req, res) => {
     res.render('index.ejs')
 })
 
-app.post('/name', (req, res) => {
-    res.render('name.ejs', {
-        player1: req.body.player1,
-        player2: req.body.player2
-    })  
-}) 
-
-app.post('/points', (req, res) => {
-    res.render('points.ejs', {
+app.post('/battle', (req, res) => {
+    res.render('battle.ejs', {
         player1: req.body.player1,
         player2: req.body.player2,
         points1: req.body.points1,

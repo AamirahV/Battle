@@ -1,16 +1,13 @@
 <h1 id='header'>Battle</h1>
 <h2 id='welcome'>Welcome, please enter your names</h2>
-<form action="/name" method="post">
-
-    <input id="p1Name" type="text" name="player1">
-    <input id="p2Name" type="text" name="player2">
-    <input id="submitButton" type="submit" value="Enter">
-
-
+<h2>Starting points - Please input: 0</h2>
+<form action="/battle" method="post">
+    <label for="player1">Player 1<input id="p1Name" type="text" name="player1"></input></label> 
+    <label for="player1p1">Player 1 Points<input id="p1Points" type = "text" name="points1"></input></label> 
+    <br>
+</br>
+    <label for="player2">Player 2<input id="p2Name" type="text" name="player2"></input></label> 
+    <label for="player2p2">Player 2 Points<input id="p2Points" type = "text" name="points2"></input></label> 
+    <input id="submitButton" type="submit" value="Show Points"></input>
 </form>
-<form action="/points" method="post">
-    <input id="p1Points" type = "text" name="points1">
-    <input id="p2Points" type = "text" name="points2">
-    <input id="submitButton" type="submit" value="Show Points">
-    
-    </form>
+
