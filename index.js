@@ -16,6 +16,15 @@ app.post('/name', (req, res) => {
     })  
 }) 
 
+app.post('/points', (req, res) => {
+    res.render('points.ejs', {
+        player1: req.body.player1,
+        player2: req.body.player2,
+        points1: req.body.points1,
+        points2: req.body.points2
+    })  
+}) 
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
