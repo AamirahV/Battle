@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/AamirahV/Battle#readme",
   "devDependencies": {
-    "cypress": "^8.0.0"
+    "cypress": "^8.0.0",
+    "nodemon": "^2.0.12"
   },
   "dependencies": {
     "ejs": "^3.1.6",
