@@ -32,7 +32,7 @@ Completed:(✓)
 As Player 1,    
 So I can win a game of Battle,     
 I want to attack Player 2, and I want to get a confirmation    
-Completed:()     
+Completed:(✓)     
 
 ### 4.
 As Player 1,    
@@ -44,7 +44,7 @@ Completed:()
 As two Players,    
 So we can continue our game of Battle,    
 We want to switch turns    
-Completed:()     
+Completed:(✓)     
 
 ### 6.
 As Player 1,    
@@ -56,7 +56,7 @@ Completed:()
 As Player 1,    
 So I can lose a game of Battle,    
 I want Player 2 to attack me, and I want to get a confirmation    
-Completed:()     
+Completed:(✓)     
 
 ### 8.
 As Player 1,    

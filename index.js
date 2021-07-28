@@ -38,6 +38,24 @@ app.post('/battle', (req, res) => {
     })  
 })
 
+app.post('/player1', (req, res) => {
+    res.render('player1.ejs', {
+        player1: Player1,
+        player2: Player2,
+        points1: points.getScore(),
+        points2: points.getScore()
+    })  
+})
+
+app.post('/player2', (req, res) => {
+    res.render('player2.ejs', {
+        player1: Player1,
+        player2: Player2,
+        points1: points.getScore(),
+        points2: points.getScore()
+    })  
+})
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
