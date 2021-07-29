@@ -34,7 +34,7 @@ app.post('/battle', (req, res) => {
         player1: Player1,
         player2: Player2,
         points1: points.getScore(),
-        points2: points.getScore()
+        points2: points.getPoints()
     })  
 })
 
@@ -43,7 +43,7 @@ app.post('/player1', (req, res) => {
         player1: Player1,
         player2: Player2,
         points1: points.getScore(),
-        points2: points.getScore()
+        points2: points.updatePoints()
     })  
 })
 
@@ -51,8 +51,8 @@ app.post('/player2', (req, res) => {
     res.render('player2.ejs', {
         player1: Player1,
         player2: Player2,
-        points1: points.getScore(),
-        points2: points.getScore()
+        points1: points.updateScore(),
+        points2: points.getPoints()
     })  
 })
 

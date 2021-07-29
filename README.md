@@ -38,7 +38,7 @@ Completed:(✓)
 As Player 1,    
 So I can start to win a game of Battle,     
 I want my attack to reduce Player 2's HP by 10     
-Completed:()     
+Completed:(✓)     
 
 ### 5.
 As two Players,    
@@ -50,7 +50,7 @@ Completed:(✓)
 As Player 1,    
 So I can see how close I am to losing,    
 I want to see my own hit points    
-Completed:()     
+Completed:(✓)     
 
 ### 7.
 As Player 1,    
@@ -62,11 +62,11 @@ Completed:(✓)
 As Player 1,    
 So I can start to lose a game of Battle,     
 I want Player 2's attack to reduce my HP by 10     
-Completed:()     
+Completed:(✓)     
 
 ### 9.
 As a Player,    
 So I can Lose a game of Battle,   
 I want to see a 'Lose' message if I reach 0HP first    
-Completed:()     
+Completed:(✓)     
 
